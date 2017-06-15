@@ -21,7 +21,7 @@ namespace projekt
 
         private void informacjeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ewa", "o kółko i krzyżyk");
+            MessageBox.Show("Gra strategiczna dla dwóch graczy. Gracze obejmują pola na przemian i dążą do objęcia trzech pól w jednej linii. Przeciwnik uniemożliwia mu to.", "Zasady gry");
         }
 
         private void wyjdżToolStripMenuItem_Click(object sender, EventArgs e)
