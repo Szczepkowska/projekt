@@ -34,15 +34,15 @@
             this.nowaGraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wyjdżToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.informacjeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.A1 = new System.Windows.Forms.Button();
+            this.A2 = new System.Windows.Forms.Button();
+            this.A3 = new System.Windows.Forms.Button();
+            this.B1 = new System.Windows.Forms.Button();
+            this.B2 = new System.Windows.Forms.Button();
+            this.B3 = new System.Windows.Forms.Button();
+            this.C1 = new System.Windows.Forms.Button();
+            this.C2 = new System.Windows.Forms.Button();
+            this.C3 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +53,8 @@
             this.pomocToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(236, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(275, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,132 +63,159 @@
             this.plikToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nowaGraToolStripMenuItem,
             this.wyjdżToolStripMenuItem});
+            this.plikToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.plikToolStripMenuItem.Name = "plikToolStripMenuItem";
-            this.plikToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.plikToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.plikToolStripMenuItem.Text = "Plik";
             // 
             // pomocToolStripMenuItem
             // 
             this.pomocToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.informacjeToolStripMenuItem});
+            this.pomocToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.pomocToolStripMenuItem.Name = "pomocToolStripMenuItem";
-            this.pomocToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.pomocToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.pomocToolStripMenuItem.Text = "Pomoc";
             // 
             // nowaGraToolStripMenuItem
             // 
+            this.nowaGraToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.nowaGraToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.nowaGraToolStripMenuItem.Name = "nowaGraToolStripMenuItem";
             this.nowaGraToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.nowaGraToolStripMenuItem.Text = "Nowa gra";
             // 
             // wyjdżToolStripMenuItem
             // 
+            this.wyjdżToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.wyjdżToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.wyjdżToolStripMenuItem.Name = "wyjdżToolStripMenuItem";
             this.wyjdżToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.wyjdżToolStripMenuItem.Text = "Wyjdż";
             // 
             // informacjeToolStripMenuItem
             // 
+            this.informacjeToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.informacjeToolStripMenuItem.Name = "informacjeToolStripMenuItem";
             this.informacjeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.informacjeToolStripMenuItem.Text = "Informacje";
             // 
-            // button1
+            // A1
             // 
-            this.button1.Location = new System.Drawing.Point(0, 27);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 70);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.A1.BackColor = System.Drawing.Color.Green;
+            this.A1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.A1.ForeColor = System.Drawing.Color.White;
+            this.A1.Location = new System.Drawing.Point(0, 31);
+            this.A1.Name = "A1";
+            this.A1.Size = new System.Drawing.Size(82, 81);
+            this.A1.TabIndex = 1;
+            this.A1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // A2
             // 
-            this.button2.Location = new System.Drawing.Point(76, 27);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(70, 70);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.A2.BackColor = System.Drawing.Color.Green;
+            this.A2.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A2.ForeColor = System.Drawing.Color.White;
+            this.A2.Location = new System.Drawing.Point(89, 32);
+            this.A2.Name = "A2";
+            this.A2.Size = new System.Drawing.Size(82, 81);
+            this.A2.TabIndex = 2;
+            this.A2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // A3
             // 
-            this.button3.Location = new System.Drawing.Point(152, 27);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(70, 70);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.A3.BackColor = System.Drawing.Color.Green;
+            this.A3.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A3.ForeColor = System.Drawing.Color.White;
+            this.A3.Location = new System.Drawing.Point(177, 31);
+            this.A3.Name = "A3";
+            this.A3.Size = new System.Drawing.Size(82, 81);
+            this.A3.TabIndex = 3;
+            this.A3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // B1
             // 
-            this.button4.Location = new System.Drawing.Point(0, 103);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(70, 70);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.B1.BackColor = System.Drawing.Color.Green;
+            this.B1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.B1.ForeColor = System.Drawing.Color.White;
+            this.B1.Location = new System.Drawing.Point(0, 119);
+            this.B1.Name = "B1";
+            this.B1.Size = new System.Drawing.Size(82, 81);
+            this.B1.TabIndex = 4;
+            this.B1.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // B2
             // 
-            this.button5.Location = new System.Drawing.Point(76, 103);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(70, 70);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.B2.BackColor = System.Drawing.Color.Green;
+            this.B2.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.B2.ForeColor = System.Drawing.Color.White;
+            this.B2.Location = new System.Drawing.Point(89, 119);
+            this.B2.Name = "B2";
+            this.B2.Size = new System.Drawing.Size(82, 81);
+            this.B2.TabIndex = 5;
+            this.B2.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // B3
             // 
-            this.button6.Location = new System.Drawing.Point(152, 103);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(70, 70);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.B3.BackColor = System.Drawing.Color.Green;
+            this.B3.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B3.ForeColor = System.Drawing.Color.White;
+            this.B3.Location = new System.Drawing.Point(177, 119);
+            this.B3.Name = "B3";
+            this.B3.Size = new System.Drawing.Size(82, 81);
+            this.B3.TabIndex = 6;
+            this.B3.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // C1
             // 
-            this.button7.Location = new System.Drawing.Point(0, 179);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(70, 70);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.C1.BackColor = System.Drawing.Color.Green;
+            this.C1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C1.ForeColor = System.Drawing.Color.White;
+            this.C1.Location = new System.Drawing.Point(0, 207);
+            this.C1.Name = "C1";
+            this.C1.Size = new System.Drawing.Size(82, 81);
+            this.C1.TabIndex = 7;
+            this.C1.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // C2
             // 
-            this.button8.Location = new System.Drawing.Point(76, 179);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(70, 70);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.C2.BackColor = System.Drawing.Color.Green;
+            this.C2.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.C2.ForeColor = System.Drawing.Color.White;
+            this.C2.Location = new System.Drawing.Point(89, 207);
+            this.C2.Name = "C2";
+            this.C2.Size = new System.Drawing.Size(82, 81);
+            this.C2.TabIndex = 8;
+            this.C2.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // C3
             // 
-            this.button9.Location = new System.Drawing.Point(152, 179);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(70, 70);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.C3.BackColor = System.Drawing.Color.Green;
+            this.C3.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.C3.ForeColor = System.Drawing.Color.White;
+            this.C3.Location = new System.Drawing.Point(177, 207);
+            this.C3.Name = "C3";
+            this.C3.Size = new System.Drawing.Size(82, 81);
+            this.C3.TabIndex = 9;
+            this.C3.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(236, 261);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(275, 301);
+            this.Controls.Add(this.C3);
+            this.Controls.Add(this.C2);
+            this.Controls.Add(this.C1);
+            this.Controls.Add(this.B3);
+            this.Controls.Add(this.B2);
+            this.Controls.Add(this.B1);
+            this.Controls.Add(this.A3);
+            this.Controls.Add(this.A2);
+            this.Controls.Add(this.A1);
             this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -208,15 +236,15 @@
         private System.Windows.Forms.ToolStripMenuItem wyjdżToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pomocToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem informacjeToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button A1;
+        private System.Windows.Forms.Button A2;
+        private System.Windows.Forms.Button A3;
+        private System.Windows.Forms.Button B1;
+        private System.Windows.Forms.Button B2;
+        private System.Windows.Forms.Button B3;
+        private System.Windows.Forms.Button C1;
+        private System.Windows.Forms.Button C2;
+        private System.Windows.Forms.Button C3;
     }
 }
 
