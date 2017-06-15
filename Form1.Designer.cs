@@ -92,6 +92,7 @@
             this.wyjdżToolStripMenuItem.Name = "wyjdżToolStripMenuItem";
             this.wyjdżToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.wyjdżToolStripMenuItem.Text = "Wyjdż";
+            this.wyjdżToolStripMenuItem.Click += new System.EventHandler(this.wyjdżToolStripMenuItem_Click);
             // 
             // informacjeToolStripMenuItem
             // 
@@ -99,6 +100,7 @@
             this.informacjeToolStripMenuItem.Name = "informacjeToolStripMenuItem";
             this.informacjeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.informacjeToolStripMenuItem.Text = "Informacje";
+            this.informacjeToolStripMenuItem.Click += new System.EventHandler(this.informacjeToolStripMenuItem_Click);
             // 
             // A1
             // 
@@ -110,6 +112,7 @@
             this.A1.Size = new System.Drawing.Size(82, 81);
             this.A1.TabIndex = 1;
             this.A1.UseVisualStyleBackColor = false;
+            this.A1.Click += new System.EventHandler(this.button_click);
             // 
             // A2
             // 
@@ -121,6 +124,7 @@
             this.A2.Size = new System.Drawing.Size(82, 81);
             this.A2.TabIndex = 2;
             this.A2.UseVisualStyleBackColor = false;
+            this.A2.Click += new System.EventHandler(this.button_click);
             // 
             // A3
             // 
@@ -132,6 +136,7 @@
             this.A3.Size = new System.Drawing.Size(82, 81);
             this.A3.TabIndex = 3;
             this.A3.UseVisualStyleBackColor = false;
+            this.A3.Click += new System.EventHandler(this.button_click);
             // 
             // B1
             // 
@@ -143,6 +148,7 @@
             this.B1.Size = new System.Drawing.Size(82, 81);
             this.B1.TabIndex = 4;
             this.B1.UseVisualStyleBackColor = false;
+            this.B1.Click += new System.EventHandler(this.button_click);
             // 
             // B2
             // 
@@ -154,6 +160,7 @@
             this.B2.Size = new System.Drawing.Size(82, 81);
             this.B2.TabIndex = 5;
             this.B2.UseVisualStyleBackColor = false;
+            this.B2.Click += new System.EventHandler(this.button_click);
             // 
             // B3
             // 
@@ -165,6 +172,7 @@
             this.B3.Size = new System.Drawing.Size(82, 81);
             this.B3.TabIndex = 6;
             this.B3.UseVisualStyleBackColor = false;
+            this.B3.Click += new System.EventHandler(this.button_click);
             // 
             // C1
             // 
@@ -176,6 +184,7 @@
             this.C1.Size = new System.Drawing.Size(82, 81);
             this.C1.TabIndex = 7;
             this.C1.UseVisualStyleBackColor = false;
+            this.C1.Click += new System.EventHandler(this.button_click);
             // 
             // C2
             // 
@@ -187,6 +196,7 @@
             this.C2.Size = new System.Drawing.Size(82, 81);
             this.C2.TabIndex = 8;
             this.C2.UseVisualStyleBackColor = false;
+            this.C2.Click += new System.EventHandler(this.button_click);
             // 
             // C3
             // 
@@ -198,6 +208,7 @@
             this.C3.Size = new System.Drawing.Size(82, 81);
             this.C3.TabIndex = 9;
             this.C3.UseVisualStyleBackColor = false;
+            this.C3.Click += new System.EventHandler(this.button_click);
             // 
             // Form1
             // 
@@ -220,6 +231,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "gra";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
