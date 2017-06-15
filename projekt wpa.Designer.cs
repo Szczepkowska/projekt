@@ -49,6 +49,8 @@
             this.wygrane_x = new System.Windows.Forms.Label();
             this.remis = new System.Windows.Forms.Label();
             this.wygrane_o = new System.Windows.Forms.Label();
+            this.resetujWyświetlanieWygranychToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resestujWyświetlanieWygranychToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,7 +69,9 @@
             // plikToolStripMenuItem
             // 
             this.plikToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.resetujWyświetlanieWygranychToolStripMenuItem,
             this.nowaGraToolStripMenuItem,
+            this.resestujWyświetlanieWygranychToolStripMenuItem,
             this.wyjdżToolStripMenuItem});
             this.plikToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.plikToolStripMenuItem.Name = "plikToolStripMenuItem";
@@ -79,7 +83,7 @@
             this.nowaGraToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.nowaGraToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.nowaGraToolStripMenuItem.Name = "nowaGraToolStripMenuItem";
-            this.nowaGraToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.nowaGraToolStripMenuItem.Size = new System.Drawing.Size(266, 22);
             this.nowaGraToolStripMenuItem.Text = "Nowa gra";
             this.nowaGraToolStripMenuItem.Click += new System.EventHandler(this.nowaGraToolStripMenuItem_Click);
             // 
@@ -289,6 +293,19 @@
             this.wygrane_o.TabIndex = 15;
             this.wygrane_o.Text = "0";
             // 
+            // resetujWyświetlanieWygranychToolStripMenuItem
+            // 
+            this.resetujWyświetlanieWygranychToolStripMenuItem.Name = "resetujWyświetlanieWygranychToolStripMenuItem";
+            this.resetujWyświetlanieWygranychToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.resetujWyświetlanieWygranychToolStripMenuItem.Text = "Resetuj wyświetlanie wygranych";
+            // 
+            // resestujWyświetlanieWygranychToolStripMenuItem
+            // 
+            this.resestujWyświetlanieWygranychToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.resestujWyświetlanieWygranychToolStripMenuItem.Name = "resestujWyświetlanieWygranychToolStripMenuItem";
+            this.resestujWyświetlanieWygranychToolStripMenuItem.Size = new System.Drawing.Size(266, 22);
+            this.resestujWyświetlanieWygranychToolStripMenuItem.Text = "Resestuj wyświetlanie wygranych";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -348,6 +365,8 @@
         private System.Windows.Forms.Label wygrane_x;
         private System.Windows.Forms.Label remis;
         private System.Windows.Forms.Label wygrane_o;
+        private System.Windows.Forms.ToolStripMenuItem resetujWyświetlanieWygranychToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem resestujWyświetlanieWygranychToolStripMenuItem;
     }
 }
 

@@ -113,17 +113,19 @@ namespace projekt
         {
             turn = true;
             turn_count = 0;
-            try
+
+
+            foreach (Control c in Controls)
             {
-                foreach (Control c in Controls)
+                try
                 {
                     Button b = (Button)c;
                     b.Enabled = true;
                     b.Text = "";
                 }
-            }
-            catch { }
 
+                catch { }
+            }
         }
 
         private void button_enter(object sender, EventArgs e)
@@ -147,6 +149,13 @@ namespace projekt
                 b.Text = "";
                 
             }
+        }
+
+        private void resestujWyświetlanieWygranychToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            wygrane_o.Text = "0";
+            wygrane_x.Text = "0";
+            remis.Text = "0";
         }
     }
 }
