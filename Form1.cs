@@ -37,6 +37,28 @@ namespace projekt
             else
                 b.Text = "O";
             turn = !turn;
+            b.Enabled = false;
+            wyborzwyciezcy();
+        }
+        private void wyborzwyciezcy()
+        { bool zwyciezca= false;
+
+            //poziomo
+            if ((A1.Text == A2.Text) && (A2.Text == A3.Text))
+                zwyciezca = true;
+           else if ((B1.Text == B2.Text) && (B2.Text == B3.Text))
+                zwyciezca = true;
+           else if ((C1.Text == C2.Text) && (C2.Text == C3.Text))
+                zwyciezca = true;
+
+            if (zwyciezca) {
+                String wygrany = "";
+                if (turn)
+                    wygrany = "O";
+                else
+                    wygrany = "X";
+                MessageBox.Show(wygrany + "WYGRANA");
+                    }
         }
     }
 }
