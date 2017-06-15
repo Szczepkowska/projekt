@@ -52,6 +52,19 @@ namespace projekt
                 zwyciezca = true;
            else if ((C1.Text == C2.Text) && (C2.Text == C3.Text)&&(!C1.Enabled))
                 zwyciezca = true;
+            //pionowo
+          else if((A1.Text == B1.Text) && (B1.Text == C1.Text) && (!A1.Enabled))
+                zwyciezca = true;
+           else if ((A2.Text == B2.Text) && (B2.Text == C2.Text) && (!A2.Enabled))
+                zwyciezca = true;
+            else if ((A3.Text ==B3.Text) && (B3.Text == C3.Text) && (!A3.Enabled))
+                zwyciezca = true;
+            //poprzecznie 
+            else if ((A1.Text == B2.Text) && (B2.Text == C3.Text) && (!A1.Enabled))
+                zwyciezca = true;
+            else if ((A3.Text == B2.Text) && (B2.Text == C1.Text) && (!A3.Enabled))
+                zwyciezca = true;
+            
 
             if (zwyciezca) {
                 disableButtons();
@@ -61,12 +74,12 @@ namespace projekt
                     wygrany = "O";
                 else
                     wygrany = "X";
-                MessageBox.Show(wygrany + "WYGRANA");
+                MessageBox.Show(wygrany + " WYGRANA!!!");
                     }
             else
             {
                 if (turn_count == 9)
-                    MessageBox.Show( "Rysuj");
+                    MessageBox.Show( "Spróbuj jeszcze raz!");
 
             }
         }
